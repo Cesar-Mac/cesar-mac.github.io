@@ -116,8 +116,7 @@
 }
 #wrapper {
   height: 100vh;
-  display: none;
-  overflow-y: hidden;
+  display: none;  
 }
 .terminal::-webkit-scrollbar-track {
   border-radius: 0;
@@ -302,6 +301,9 @@
 
 /* P A N T A L L A   C H I C A */
 @media screen and (max-width: 780px) {
+  body{
+    overflow-y: auto;
+  }
   .navbar-links {
     display: none;
   }
@@ -339,7 +341,7 @@
     display: none;
   }
   #wrapper {
-    height: 100vh;
+    /* height: 100vh; */
     display: block;
     overflow-y: hidden;
   }
@@ -363,6 +365,10 @@
   }
   #modal-info {
     text-align: justify;
+  }
+  .productosLargo {    
+    overflow-y: hidden ;
+    height: auto ;
   }
 }
 
