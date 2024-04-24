@@ -2,13 +2,7 @@
 
 * {
     box-sizing: border-box;
-  }
-  header {
-    /* background: rgba(0,0,0,0.9); */
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
+  }  
   body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -21,6 +15,9 @@
     align-items: center;
     background-color: #fb7701;
     padding: 1rem;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
   }
   
   .logo {
@@ -295,7 +292,7 @@
   font-size: 28px;
   cursor: pointer;
 }
-/* C O N T A C T O */
+
 
 
 
@@ -351,6 +348,7 @@
     transform: translate(-50%, -50%);
     display: block;
     flex-wrap: wrap;
+    top: 55% !important;
   }
   .image-cards {
     margin-top: 25px !important;
@@ -367,7 +365,7 @@
     text-align: justify;
   }
   .productosLargo {    
-    overflow-y: hidden ;
+    overflow-y: hidden;
     height: auto ;
   }
 }
@@ -408,7 +406,7 @@
 
 
 
-
+/* C O N T A C T O */
 
 .imgRedonda {
   width:110px;
@@ -472,6 +470,7 @@
 }
 
 .card-top-para {
+  margin: 0 auto;
   font-size: 16px;
   font-weight: bold;
 }
